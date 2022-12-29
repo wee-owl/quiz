@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - SongBird</title>
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../style/index.css">
+  <script src="../script/game.js" type="module"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__title">
+      <a href="../index.html" class="header__logo">
+        <img src="../assets/logo.svg" width="200" height="70" alt="Logo">
+      </a>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="../index.html" class="nav__link link__to-start">Об игре</a>
+          </li>
+          <li class="nav__item nav__item-active">
+            <a href="#0" class="nav__link link__to-play">Играть!</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    <section class="game">
+      <h2 hidden>Game</h2>
+      <section class="question">
+        <h2 hidden>Questions</h2>
+        <div class="question__score">
+          <p>Очки: <span class="score">0</span></p>
+        </div>
+        <div class="question__block">
+          <ul class="question__list">
+            <li class="question__item question__item-active">Разминка</li>
+            <li class="question__item">Воробьиные</li>
+            <li class="question__item">Лесные птицы</li>
+            <li class="question__item">Певчие птицы</li>
+            <li class="question__item">Хищные птицы</li>
+            <li class="question__item">Морские птицы</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="player">
+        <h2 hidden>Player</h2>
+        <div class="player__photo">
+          <img src="../assets/bird_cover.svg" class="player__img" alt="Bird cover">
+        </div>
+        <div class="player__block">
+          <p class="player__birdname">*******</p>
+          <audio src="#0" class="player__source" controls></audio>
+        </div>
+      </section>
+
+      <section class="answer">
+        <h2 hidden>Answers</h2>
+        <div class="answer__list">
+          <div class="answer__item">
+            <input type="radio" id="choice__one" class="answer__input" name="choice" value="bird__one">
+            <label for="choice__one" class="answer__label">Ворон</label>
+          </div>
+          <div class="answer__item">
+            <input type="radio" id="choice__two" class="answer__input" name="choice" value="bird__two">
+            <label for="choice__two" class="answer__label">Журавль</label>
+          </div>
+          <div class="answer__item">
+            <input type="radio" id="choice__three" class="answer__input" name="choice" value="bird__three">
+            <label for="choice__three" class="answer__label">Ласточка</label>
+          </div>
+          <div class="answer__item">
+            <input type="radio" id="choice__four" class="answer__input" name="choice" value="bird__four">
+            <label for="choice__four" class="answer__label">Козодой</label>
+          </div>
+          <div class="answer__item">
+            <input type="radio" id="choice__five" class="answer__input" name="choice" value="bird__five">
+            <label for="choice__five" class="answer__label">Кукушка</label>
+          </div>
+          <div class="answer__item">
+            <input type="radio" id="choice__six" class="answer__input" name="choice" value="bird__six">
+            <label for="choice__six" class="answer__label">Синица</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="description">
+        <h2 hidden>Description</h2>
+        <p class="description__lead-in">Послушайте плеер и выберите ответ</p>
+        <div class="description__photo">
+          <img src="#0" class="description__img" alt="Bird cover">
+        </div>
+        <div class="description__block">
+          <p class="description__birdname">*******</p>
+          <p class="description__species">*******</p>
+          <audio src="#0" class="description__source" controls></audio>
+          <p class="description__text"></p>
+        </div>
+      </section>
+
+      <button class="next-level__btn" type="submit" disabled>
+        Следующий вопрос
+      </button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://rs.school/js/" class="footer__link" target="_blank">
+      <img src="../assets/rss.svg" width="80" height="30" alt="RSSchool">
+    </a>
+    <p>created in 2022</p>
+    <a href="https://github.com/wee-owl/" class="footer__link" target="_blank">
+      <img src="../assets/github.svg" width="30" height="30" alt="GitHub">
+    </a>
+  </footer>
+</body>
+</html>

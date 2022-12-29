@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - SongBird</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style/index.css">
+  <script src="script/about.js" type="module"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__title">
+      <a href="#main" class="header__logo">
+        <img src="assets/logo.svg" width="200" height="70" alt="Logo">
+      </a>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item-active">
+            <a href="#0" class="nav__link link__to-start">Об игре</a>
+          </li>
+          <li class="nav__item">
+            <a href="#0" class="nav__link link__to-play">Играть!</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    <section class="start">
+      <h2 hidden>Start page</h2>
+      <div class="start__about">
+        <p>Что такое <a href="https://en.wikipedia.org/wiki/Quiz" target="_blank">Квиз</a> и как в него играть? Сегодня Вы этому научитесь!</p>
+        <p>Квиз (или Викторина) - это отличная возможность заставить работать Ваши серые клеточки!</p>
+        <p>Квиз SongBird состоит из 6 блоков вопросов, в каждом из которых по 6 ответов. Вам предстоит узнать название пернатого по его пению. 
+          За каждый правильный ответ, данный с первого раза, Вы получите 5 очков. За каждый второй - 4 и так далее.
+          Постарайтесь набрать как можно больше очков!</p>
+        <p>Чтобы поближе познакомиться с пернатыми, посмотрите нашу галерею.</p>
+        <div class="start__gallery">
+          <div class="gallery__main">
+            <div class="gallery__block">
+              <img src="#0" id="largeImg" class="gallery__img" alt="Bird cover">
+              <div class="gallery__name">
+                <p class="gallery__birdname"></p>
+                <p class="gallery__species"></p>
+              </div>
+            </div>
+            <div class="gallery__audio">
+              <audio src="#0" class="gallery__source" controls></audio>
+            </div>
+            <div class="gallery__description">
+              Ворон – крупная птица. Длина тела достигает 70 сантиметров, размах крыльев – до полутора метров. Вороны населяют окрестности Тауэра. В Англии бытует поверье, что в день, когда черные вороны улетят от Тауэра, монархия рухнет.
+            </div>
+          </div>
+          <ul class="gallery__items" id="thumbs"></ul>
+        </div>
+        <p>Также Вы можете создать свой собственный Квиз для себя и друзей! Просто воспользуйтесь любой из онлайн-платформ: 
+          <a href="https://www.marquiz.ru/" target="_blank">Marquiz</a>, 
+          <a href="https://envybox.io/products/kvizy/" target="_blank">Envybox</a>, 
+          <a href="https://lpmotor.ru/" target="_blank">Mottor</a>, 
+          <a href="https://enquiz.io/" target="_blank">Enquiz</a>, 
+          <a href="https://formdesigner.ru/" target="_blank">FormDesigner</a>.</p>
+        <fieldset class="start__fieldset">
+          <legend class="fieldset__legend">Перед началом игры я принимаю следующие условия и обязуюсь:</legend>
+          <div>
+            <input class="vow" type="checkbox" id="vow1" name="vow1">
+            <label for="vow1">не гуглить ответы не вопросы,</label>
+          </div>
+          <div>
+            <input class="vow" type="checkbox" id="vow2" name="vow2">
+            <label for="vow2">активно шевелить серыми клеточками,</label>
+          </div>
+          <div>
+            <input class="vow" type="checkbox" id="vow3" name="vow3">
+            <label for="vow3">быть позитивно настроенным на победу!</label>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <button class="start__btn to-play__btn" type="button" disabled>
+      Играть!
+    </button>
+  </main>
+
+  <footer class="footer">
+    <a href="https://rs.school/js/" class="footer__link" target="_blank">
+      <img src="assets/rss.svg" width="80" height="30" alt="RSSchool">
+    </a>
+    <p>created in 2022</p>
+    <a href="https://github.com/wee-owl/" class="footer__link" target="_blank">
+      <img src="assets/github.svg" width="30" height="30" alt="GitHub">
+    </a>
+  </footer>
+</body>
+</html>
