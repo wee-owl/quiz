@@ -5,7 +5,7 @@ export const birdsData = [
       name: 'Ворон',
       species: 'Corvus corax',
       description: 'Ворон – крупная птица. Длина тела достигает 70 сантиметров, размах крыльев – до полутора метров. Вороны населяют окрестности Тауэра. В Англии бытует поверье, что в день, когда черные вороны улетят от Тауэра, монархия рухнет.',
-      image: 'https://live.staticflickr.com//65535//49298804222_474cfe8682.jpg',
+      image: 'https://live.staticflickr.com/65535/49298804222_474cfe8682.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/XIQVMQVUPP/XC518684-Grands%20corbeaux%2009012020%20Suzon.mp3'
     },
     {
@@ -21,7 +21,7 @@ export const birdsData = [
       name: 'Ласточка',
       species: 'Delichon urbicum',
       description: 'Для ласточек характерно негромкое щебетание. Песни ласточек не смолкают на протяжении всего лета. Исследователи различают у птиц до 6 щебечущих звуков: «вит», «ви-вит», «чивит», «чиривит» и т.п. Ласточки любят петь дуэтом.',
-      image: 'https://live.staticflickr.com//65535//48539007512_5029d2a9a0.jpg',
+      image: 'https://live.staticflickr.com/65535/48539007512_5029d2a9a0.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC489247-190724_09.10h_huiszwaluw_biesbosch_amaliahoeve_roep_100%2Bex_fouragerend_gezien_%20%282%29.mp3'
     },
     {
@@ -45,7 +45,7 @@ export const birdsData = [
       name: 'Синица',
       species: 'Parus major',
       description: 'В щебетании синиц различают более 40 различных звуковых сочетаний. Поют они практически круглый год, немного затихая только зимой. Синицы настоящие санитары леса. Одна пара синиц в период гнездования оберегает от вредителей десятки деревьев.',
-      image: 'https://live.staticflickr.com//65535//49366042493_c48c81d58d.jpg',
+      image: 'https://live.staticflickr.com/65535/49366042493_c48c81d58d.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/RFGQDPLDEC/XC518417-Kj%C3%B8ttmeis%20XC%20Helg%C3%B8ya%20Elias%20A.%20Ryberg20200108133922_079.mp3'
     }
   ],
@@ -55,7 +55,7 @@ export const birdsData = [
       name: 'Воробей',
       species: 'Passer domesticus',
       description: 'Воробьи являются самыми известными и узнаваемыми пернатыми. Их легко узнать по пестрому оперению и задорному чириканью. Воробьи относятся к синатропному виду — они селятся поблизости к человеческому жилищу.',
-      image: 'https://live.staticflickr.com//65535//49366595303_06cf65b07e.jpg',
+      image: 'https://live.staticflickr.com/65535/49366595303_06cf65b07e.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/CXFHOPIVAS/XC503224-191020_0134.mp3'
     },
     {
@@ -63,7 +63,7 @@ export const birdsData = [
       name: 'Грач',
       species: 'Corvus frugilegus',
       description: 'Грачи очень умные и сообразительные птицы. С помощью клюва они создают и используют простейшие орудия. У грачей развит рефлекс на звуки трактора. Услышав «тарахтение», они летят на звук – трактор пашет землю, значит, в этом месте много корма.',
-      image: 'https://live.staticflickr.com//65535//49347123322_291c86b016.jpg',
+      image: 'https://live.staticflickr.com/65535/49347123322_291c86b016.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC512540-gawron%20Suble%2019.12.19%20%2012.35.mp3'
     },
     {
@@ -71,7 +71,7 @@ export const birdsData = [
       name: 'Галка',
       species: 'Coloeus monedula',
       description: 'Слово «галка» произошло из старославянского языка и переводится как «чёрный». Этим словом часто называют воронов или других черных птиц. Латинское название галки «monedula» связывают со словами монета за любовь птицы к блестящим и ярким вещам.',
-      image: 'https://live.staticflickr.com//65535//49237149586_993cf685c5.jpg',
+      image: 'https://live.staticflickr.com/65535/49237149586_993cf685c5.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC510498-Coloeus%20monedula_2019.11.13_11.55_01.mp3'
     },
     {
@@ -87,7 +87,7 @@ export const birdsData = [
       name: 'Сорока',
       species: 'Pica pica',
       description: 'Сорока очень трудолюбивая птица. Она строит до восьми гнёзд, а потом выбирает из них самое лучшее. Вход в гнездо сорок всегда обращен на юг, чтобы в жилище было теплее. Сороки являются единственными птицами, которые узнают себя в зеркале.',
-      image: 'https://live.staticflickr.com//65535//49360363066_ff02bb6a73.jpg',
+      image: 'https://live.staticflickr.com/65535/49360363066_ff02bb6a73.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC500868-Pica%20pica2019.08.23_09.18_02.mp3'
     },
     {
@@ -95,7 +95,7 @@ export const birdsData = [
       name: 'Сойка',
       species: 'Garrulus glandarius',
       description: 'Когда сойка волнуется, хохолок на её голове взъерошивается. Птица старается создать устрашающее зрелище. Сойки умеют имитировать голоса других птиц, животных и звуки, которые создает человек. На зиму они делают большие запасы желудей и орехов.',
-      image: 'https://live.staticflickr.com//65535//49369678956_9a7465c7f4.jpg',
+      image: 'https://live.staticflickr.com/65535/49369678956_9a7465c7f4.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/TFOGOENSTQ/XC501517-191008_1590%201300.%20Eichelh%C3%A4her%20D%2C%20NW%2C%20LEV.%20Stephan%20Risch.mp3'
     }
   ],
@@ -113,7 +113,7 @@ export const birdsData = [
       name: 'Клёст',
       species: 'Loxia curvirostra',
       description: 'Клестов называют «рождественскими» птицами. В естественных условиях они дают потомство зимой – в январе. Эти птицы утепляют свои гнезда мхом и шерстью животных, потому птенцам не холодно. В поисках шишек клесты могут улетать за 3500 км от гнезда.',
-      image: 'https://live.staticflickr.com//65535//49365470123_f2de66bb35.jpg',
+      image: 'https://live.staticflickr.com/65535/49365470123_f2de66bb35.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/OTVUCEGYZN/XC495381-Kruisbek%20roep%20NHD%20290619.mp3'
     },
     {
@@ -137,7 +137,7 @@ export const birdsData = [
       name: 'Удод',
       species: 'Upupa epops',
       description: 'Удоды предпочитают жить на открытых ландшафтах с отдельными деревьями или рощами. Наиболее удобными для птицы являются лесостепь и саванна. Удод может выбирать места жительства рядом с человеком: пастбища, виноградники, фруктовые сады.',
-      image: 'https://live.staticflickr.com//65535//49226383598_6f8be86a06.jpg',
+      image: 'https://live.staticflickr.com/65535/49226383598_6f8be86a06.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC477326-dudek%20%282%29.mp3'
     },
     {
@@ -145,7 +145,7 @@ export const birdsData = [
       name: 'Стриж',
       species: 'Apus apus',
       description: 'Стрижа можно увидеть практически в каждом уголке планеты. Они обитают как в лесных зонах, так и на открытых местностях. Живут стрижи крупными стаями. Большие колонии этих птиц можно увидеть в городах или на прибрежных скалах.',
-      image: 'https://live.staticflickr.com//65535//48386150031_7b749df74b.jpg',
+      image: 'https://live.staticflickr.com/65535/48386150031_7b749df74b.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/TMUAWSDHDJ/XC511871-G.mp3'
     }
   ],
@@ -187,7 +187,7 @@ export const birdsData = [
       name: 'Свиристель',
       species: 'Bombycilla garrulus',
       description: 'У свиристели очень цепкие коготки, что помогает птице удерживаться на ветках и склевывать ягоды, которые труднее всего достать. В период ухаживаний самец предлагает самке ягоду или другое угощение. Если самка его принимает, то птицы создают пару.',
-      image: 'https://live.staticflickr.com//65535//49367433842_1b06da0e6b.jpg',
+      image: 'https://live.staticflickr.com/65535/49367433842_1b06da0e6b.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC517421-AB-004%20%282%29%20jemio%C5%82uszka.mp3'
     },
     {
@@ -195,7 +195,7 @@ export const birdsData = [
       name: 'Щегол',
       species: 'Carduelis carduelis',
       description: 'Щеглы поют красиво и мелодично. И в природе, и в неволе они щебечут почти круглый год. В пении щегла различают более 20 переливчатых трелей. Щеглы привыкают к людям, и даже могут возвратиться к хозяину после того, как их выпустили на волю',
-      image: 'https://live.staticflickr.com//65535//49366257253_db3ce48b9a.jpg',
+      image: 'https://live.staticflickr.com/65535/49366257253_db3ce48b9a.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC489265-190724_07.58h_putter_biesbosch_%20boompjes%20langs%20open%20water_zang_1ex_ad_niet%20gezien_.mp3'
     }
   ],
@@ -205,7 +205,7 @@ export const birdsData = [
       name: 'Орёл',
       species: 'Aquila nipalensis',
       description: 'В древние времена орел был символом солнца. Орлы часто парят над землей, при этом скорость их перемещения может достигать 240 км/ч. Иллюзия медленного движения происходит из-за высоты полета – более 700 метров',
-      image: 'https://live.staticflickr.com//4835//43867392960_7105d71e19.jpg',
+      image: 'https://live.staticflickr.com/4835/43867392960_7105d71e19.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/KTBTZAHSXF/10_Aquila_nipalensis_al02D85.mp3'
     },
     {
@@ -213,7 +213,7 @@ export const birdsData = [
       name: 'Коршун',
       species: 'Milvus migrans',
       description: 'Коршуны – крупные хищники, в высоту они достигают около полуметра, а вес взрослых особей достигает 1 кг. Крылья узкие и длинные, их размах составляет 1,5 м. Коршуны часто гнездятся большими стаями и даже образуют крупные колонии.',
-      image: 'https://live.staticflickr.com//65535//48701190276_ee2a9ed594.jpg',
+      image: 'https://live.staticflickr.com/65535/48701190276_ee2a9ed594.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC485740-2019-06-22%20Selenga%20Milan%20brun%20cris%20de%20quemandage%203.mp3'
     },
     {
@@ -229,7 +229,7 @@ export const birdsData = [
       name: 'Сокол',
       species: 'Falco peregrinus',
       description: 'Латинское название сокола Falco произошло от слова «серп» из-за серповидной формы крыльев. Длинные и широкие крылья позволяют соколу высоко подниматься в небо и свободно парить. Скорость полёта сокола достигает 280-320 километров в час.',
-      image: 'https://live.staticflickr.com//65535//49310710607_92a3a145a9.jpg',
+      image: 'https://live.staticflickr.com/65535/49310710607_92a3a145a9.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC496049-Pilgrimsfalk_06.mp3'
     },
     {
@@ -237,7 +237,7 @@ export const birdsData = [
       name: 'Ястреб',
       species: 'Accipiter gentilis',
       description: 'Для всех ястребов характерны широкие и короткие крылья. Ещё один отличительный признак - белые «брови» над глазами. Славянские дружинники размещали изображение ястреба на своих знаменах, как символ отваги, мощи и безжалостности к врагам.',
-      image: 'https://live.staticflickr.com//65535//49024617331_b9d0d2c9b3.jpg',
+      image: 'https://live.staticflickr.com/65535/49024617331_b9d0d2c9b3.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC512740-Duvh%C3%B6k_09.mp3'
     },
     {
@@ -271,7 +271,7 @@ export const birdsData = [
       name: 'Буревестник',
       species: 'Puffinus griseus',
       description: 'Размеры буревестниковых разные. Самые маленькие из них в длину составляют до 25 см, самые большие - до 1 м, при размахе крыльев около 2 м. Существует поверье, что появление буревестника в воздухе предвещает бурю, о чем говорит само название птицы.',
-      image: 'https://live.staticflickr.com//607//22136056020_935cb113f9.jpg',
+      image: 'https://live.staticflickr.com/607/22136056020_935cb113f9.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/XQEVNREHJY/SHEARWATER%20Christmas%20Island_04_Motu_Isla%20de%20Pascua-Easter%20Island_CH_4MAR03_Alvaro%20Jaramillo.mp3'
     },
     {
@@ -279,7 +279,7 @@ export const birdsData = [
       name: 'Пеликан',
       species: 'Pelecanus',
       description: 'Пеликаны — обитатели морей и рек. Ходят они неуклюже, но хорошо летают и плавают. Питаются в основном рыбой, устраивают коллективные охоты — выстроившись полукругом хлопают по воде крыльями и клювами и вытесняют напуганную рыбу на мелководье.',
-      image: 'https://imageup.ru/img31/4068460/bisakha-datta-dywfjlxorcu-unsplash.jpg',
+      image: 'https://i.ibb.co/mqqxpKB/89644134.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/XAMHIHFTZG/XC331138-call1.mp3'
     },
     {
