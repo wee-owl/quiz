@@ -18,7 +18,7 @@ function playWin() {
   audioWin.play();
 }
 
-if (getResultScore === 0) {
+if (+getResultScore === 0) {
   playZero();
   resultFelici.innerHTML = "Печалька!";
   resultFelici.style.color = "rgb(150, 20, 20)";
@@ -27,7 +27,7 @@ if (getResultScore === 0) {
   resultGif.src = "https://i.gifer.com/3n7y.gif";
   againBtn.innerHTML = "Играть снова!";
   linkPlay.href = "main.html";
-} else if (getResultScore === 30) {
+} else if (+getResultScore === 30) {
   playWin();
   resultFelici.innerHTML = "Поздравляем!";
   resultText.innerHTML = "Вы прошли квиз и набрали 30 баллов!";
@@ -44,7 +44,7 @@ if (getResultScore === 0) {
 }
 
 againBtn.addEventListener('click', () => {
-  if (getResultScore === 30) {
+  if (+getResultScore === 30) {
     window.location.href = '../index.html';
   } else {
     window.location.href = 'main.html';
